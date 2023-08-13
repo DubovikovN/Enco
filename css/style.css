@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+body{
+    background-color: #004E35;
+}
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #004E35;
+}
+.updates_item:hover , .platform_item:hover{
+    background-color: #C0E8C0;
+}
+.updates_item , .platform_item{
+    transition: 0.5s;
+}
+
+
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 48px;
+}
+.menu_element{
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #88E53E;
+    list-style-type: none;
+}
+
+
+.hero{
+    margin-top: 240px;
+    color: #88E53E;
+    margin-bottom: 73px;
+
+}
+.hero .container{
+    display: flex;
+    gap: 233px;
+}
+.hero_title{
+    font-size: 179px;
+    font-weight: 400;
+    line-height: 143px;
+    letter-spacing: 5px;  
+}
+.hero_bigger_t{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;   
+    padding-top: 40px;
+    padding-bottom: 213px; 
+}
+.hero_smaller_t{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-justify: center;
+}
+
+
+
+
+.present_title{
+    display: flex;
+
+
+}
+.PT_image{
+    width: 50%;
+}
+.PT_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: #C0E8C0;
+}
+.PT_title{
+    font-size: 63px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    color: #004E35;
+}
+.PT_title span{
+    letter-spacing: 4px;
+}
+
+
+
+.Mission{
+    padding: 51px 0;
+    text-align: center;
+    background-color: white;
+    color: #004E35;
+}
+.Mission_container{
+    max-width: 610px;
+    margin: 0 auto;
+}
+.Mission_title{
+    font-size: 112px;
+    font-weight: 400;
+    line-height: 101px;
+    letter-spacing: 1px;   
+    padding-bottom: 83px; 
+}
+.Mission_list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 18px;
+}
+.Mission_list_element{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;    
+    list-style-type: none;
+}
+.Mission_divider{
+    color: #004E35;
+    margin-bottom: 33px;
+}
+.Mission_text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+
+
+.flower_img{
+    width: 100%;
+    height: 619px;
+    object-fit: cover;
+}
+
+
+.platform{
+    margin-top: 45px;
+    margin-bottom: 112px;
+}
+.platform_title{
+    font-size: 139px;
+    font-weight: 400;
+    line-height: 130px;
+    letter-spacing: 1px;  
+    color: white;  
+
+    padding-bottom: 240px;
+}
+.platform_item{
+    height: 240px;
+    width: 390px;
+    background-color: white;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    color: #004E35;
+}
+.item_text{
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.2px;    
+    padding: 17px 24px;
+}
+.platform_arrow_sign{
+    font-size: 28px;
+    padding:  0 17px 24px;
+}
+
+
+
+
+.updates{
+    padding-top: 46px;
+    padding-bottom: 122px;
+    background-color: white;
+    color: #004E35;
+}
+.updates_title{
+    font-size: 134px;
+    font-weight: 400;
+    line-height: 130px;
+    letter-spacing: 1px;
+    margin-bottom: 138px;
+}
+.updates_image_description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    padding: 13px 0;
+}
+.updates_item_text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    padding-bottom: 24px;
+}
+.updates_item_author{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+.ticker_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+    gap: 32px;
+}
+.ticker_text{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+.ticker_button{
+    padding: 0 20px;
+    height: 60px;
+    width: 135px;
+    border-radius: 15px;
+    background-color: #88E53E;
+    color: #004E35;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    border: none;
+}
+
+
+
+.footer{
+    background-color: #C0E8C0;
+    color: #004E35;
+    padding-bottom: 30px;
+}
+.footer_items{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_middle{
+    display: flex;
+    gap: 110px;
+}
+.footer_title{
+    font-size: 107px;
+    font-weight: 400;
+    line-height: 101px;
+    letter-spacing: 1px;
+    padding: 217px 0 203px 0;
+}
+.foot_item_text{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+.foot_item_text a:hover{
+    color: orange;
+}
